@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Module2-Assignment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body class='body'>
+    <h1 align='center'>
+        Our Menu
+    </h1>
+    <br><br>
+    <div class='div1'>
+        <p>Chicken</p>
+        <stan class='chicken'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </stan>
+    </div>
+    <div class='div2'>
+        <p>Beef</p>
+        <stan class='beef'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </stan>
+    </div>
+    <div class='div3'>
+        <p>Sushi</p>
+        <stan class='sushi'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </stan>
+    </div>
+</body>
+<style>
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+.body {
+    font-family:'Comic sans MS';
+    font-size:75%;
+
+}
+div {
+    float:left;
+    width:33.33%;
+    position:relative;
+    border: 3px solid black;
+    padding:0px;
+    border-radius: 15px;
+}
+@media (min-width:992px) {
+    div{
+        width:26.66%;
+        margin-left:5%
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    div {
+        width:45.5%;
+        margin-left:3%;
+        margin-bottom:3%;
+    }
+    .div3 {
+        width:94%
+    }
+
+}
+@media (max-width:767px){
+    div {
+        width:94%;
+        margin:3%;
+    }
+
+}
+p {
+    
+    float:right;
+    border-left: solid 2px;
+    border-bottom: solid  2px;
+    background-color: blueviolet;
+    margin-top: 0px;
+    padding: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    font-family: 'broadway';
+    font-size:2em;
+    
+}
+stan {
+    float:left;
+}
+.div1 {
+    background-color:rgb(255, 0, 157);
+}
+.div2 {
+    background-color:rgba(60, 255, 0, 0.397);
+}
+.div3 {
+    background-color:rgba(89, 0, 255, 0.37);
+}
+h1 {
+    font-size:4em;
+    
+}
+
+</style>
+</html>
